@@ -1,6 +1,6 @@
 ## Tools to deal with daily Debian annoyances
 Here are a collection of tools to address common daily linux frustrations.
-Long files are used so they are self-explanatory.
+Long file names are used so they are self-explanatory.
 Read the comments within the files regarding usage
 
 
