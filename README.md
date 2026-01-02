@@ -1,0 +1,16 @@
+## Tools to deal with daily Debian annoyances
+Here are a collection of tools to address common daily linux frustrations.
+Long files are used so they are self-explanatory.
+Read the comments within the files regarding usage
+
+
+## `sudo_users_no_password_for_power_operations.rules`
+Cinnamon on Debian now prompts for passwords on shutdown/reboot/suspend.
+I expect it'd be the same for other Desktop Environment that uses Freedesktop (like GNOME).
+
+Copy this file to `/usr/share/polkit-1/rules.d`
+```
+wget {github direct link to this file} -O /usr/share/polkit-1/rules.dsudo_users_no_password_for_power_operations.rules
+```
+and it will stop asking if you are a `sudo` user. Feel free to modify the Javascript hook to your liking
+
