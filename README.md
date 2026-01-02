@@ -12,5 +12,5 @@ Copy this file to `/usr/share/polkit-1/rules.d`
 ```
 wget https://raw.githubusercontent.com/wonghoi/debian_annoyances/refs/heads/main/sudo_users_no_password_for_power_operations.rules -O /usr/share/polkit-1/rules.dsudo_users_no_password_for_power_operations.rules
 ```
-and it will stop asking if you are a `sudo` user. Feel free to modify the Javascript hook to your liking
+and it will stop asking. Right now I only granted the convenience to `sudo` users. Feel free to modify the Javascript hook to your liking
 
