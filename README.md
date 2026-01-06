@@ -5,7 +5,7 @@ Read the comments within the files regarding usage
 
 
 ## `sudo_users_no_password_for_power_operations.rules`
-Cinnamon on Debian now prompts for passwords on shutdown/reboot/suspend.
+Cinnamon on Debian prompts for passwords on shutdown/reboot/suspend after installing xrdp.
 I expect it'd be the same for other Desktop Environment that uses Freedesktop (like GNOME).
 
 Copy this file to `/usr/share/polkit-1/rules.d`
